@@ -1,0 +1,379 @@
+/* body{
+    font-family:'Georgia', Times, Times New Roman, serif;
+    padding:0;
+    margin:0;
+}
+    
+    
+    
+.header {
+    padding: 40px; 
+    text-align: center; 
+    background: #1abc9c; 
+    color: white; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.header h1 {
+    font-size: 40px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+footer{
+    background-color:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+
+}
+
+.navbar {
+    overflow: hidden; 
+    background-color:#ffffff; 
+}
+
+.navbar a {
+    float: right;
+    display: block; 
+    color:#333; 
+    text-align: center; 
+    padding: 30px 17px; 
+    text-decoration: none; 
+}
+.navbar h2{
+    padding:17px;
+    display:block;
+    float:left;
+    background-color:#4aaaa5;
+    position:absolute;    top:0;
+    color:#ffffff;
+    left:370px;
+}
+.navbar a.right {
+    float: right; 
+}
+
+
+.navbar a:hover {
+    background-color:#3277a5; 
+    color: black;
+}
+
+.Namediv{
+    position:relative;
+    bottom:150px;
+    left:150px;
+    background-color:red;
+    color:#ffffff;
+
+}
+.center{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 40px;
+        margin-bottom: 50 px;
+        width: 50%;
+        padding: 10px;
+        background-color:#ffffff;
+    }
+.center h2{
+        margin:10px;
+        color:#4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+.center img{
+        width:200px;
+        height:200px;
+        float:left;
+    }
+.center p{
+        margin:20px;
+        font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+    }
+
+row1, row2, row3, row4{
+    color:black;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+.container {
+    padding: 15px;
+    height:auto;
+} */
+
+
+
+
+
+/* FROM HERE ON UP IS CSS ONE, BELOW IS CSS TWO */
+
+body{
+    font-family: 'Patua One', cursive;
+
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navBar li {
+    float: left;
+    
+}
+
+.navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.navBar li a:hover {
+    background-color: #111;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(61, 114, 158);
+    color: white;
+    text-align: center;
+}
+
+.card{
+    background-color:white;
+    color:black;
+    padding:5vh;
+    width:80%;
+    margin-top:13vh;
+    margin-bottom:13vh;
+    margin-left:5vh;
+    background-color: rgb(165, 135, 95);
+    border-radius: 25px;
+}
+
+
+.buttonUno{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+.buttonDos{
+    background-color: rgb(81, 75, 175); /* puple light */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttonTres{
+        background-color: rgb(76, 144, 175); /* BlueLighy */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+.card img{
+    width:40vh;
+    height:15vh;
+    margin-bottom:2vh;
+    border-radius: 25px;
+
+}
+.cardContent{
+    background-color: rgb(219, 203, 182);
+    padding:2vh;    
+    border-radius: 25px;
+
+}
+.cardContent h1{
+    padding-left:3vh;
+}
+.cardContent p{
+    padding-left:6vh;
+}
+.imgCard{
+    padding:5vh;
+    background-color:rgb(128, 128, 128);
+    height:35vh;
+    margin:3vh;
+        float: left;
+        width: 20%;
+        border-radius: 25px;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.active{
+    background-color:grey;
+}
+.imgCard img{
+    width:25vh;
+    height:15vh;
+}
+
+@media only screen and (max-width: 980px) {
+    .imgCard{
+        padding:5vh;
+        background-color:rgb(128, 128, 128);
+        height:35vh;
+        margin:3vh;
+            float: left;
+            width: 20%;
+            border-radius: 25px;
+}
+
+.contactResponsive{
+    background-color:white;
+    color:black;
+    padding:5vh;
+    width:80%;
+    margin-top:13vh;
+    margin-bottom:13vh;
+    margin-left:13vh;
+    background-color: rgb(165, 135, 95);
+    border-radius: 25px;
+}
+.navBar li {
+    float: left;
+}
+
+.navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 15px;
+    text-decoration: none;
+}
+.imgCard img{
+    width:25vh;
+    height:15vh;
+}
+}
+    @media only screen and (max-width: 768px ) {
+        .imgCard{
+        padding:3vh;
+        background-color:rgb(128, 128, 128);
+        height:35vh;
+        margin:2vh;
+            float: left;
+            width: 40%;
+            border-radius: 25px;
+    
+    }
+    
+        .contactResponsive{
+            background-color:white;
+            color:black;
+            padding:7vh;
+            width:80%;
+            margin-top:13vh;
+            margin-bottom:13vh;
+            margin-left:9vh;
+            background-color: rgb(165, 135, 95);
+            border-radius: 25px;
+        }
+        .navBar li {
+            float: left;
+            width:33.3%;
+            
+        }
+        .navBar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+        .imgCard img{
+            width:22vh;
+            height:15vh;
+        }
+        .imgCard h4{
+            padding:0;
+        }
+}
+        @media only screen and (max-width: 640px) {
+            .imgCard{
+                padding:3vh;
+                background-color:rgb(128, 128, 128);
+                height:35vh;
+                margin:1vh;
+                    float: left;
+                    width: 70%;
+                    border-radius: 25px;
+        }
+       
+            .contactResponsive{
+                background-color:white;
+                color:black;
+                padding:5vh;
+              
+                width:70%;
+                margin-top:13vh;
+                margin-bottom:13vh;
+                margin-left:5vh;
+                background-color: rgb(165, 135, 95);
+                border-radius: 25px;
+            }
+            .navBar li {
+                float: left;
+                width:33.3%
+            }
+            .navBar li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 5px 5px;
+                text-decoration: none;
+            }
+            .imgCard img{
+                width:18vh;
+                height:15vh;
+            }
+    }
